@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  NSNotificationCenter
 //
 //  Created by Chris Jones on 2017-01-21.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SecondViewController : UIViewController
 
 @end
-
