@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C57AEE51E35769E003043B1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C57AEE41E35769E003043B1 /* ThirdViewController.m */; };
 		3CCEBE7B1E34033D002829EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEBE7A1E34033D002829EA /* main.m */; };
 		3CCEBE7E1E34033D002829EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEBE7D1E34033D002829EA /* AppDelegate.m */; };
 		3CCEBE841E34033D002829EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCEBE821E34033D002829EA /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C57AEE31E35769E003043B1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3C57AEE41E35769E003043B1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		3CCEBE761E34033D002829EA /* NSNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSNotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCEBE7A1E34033D002829EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CCEBE7C1E34033D002829EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				3CCEBE821E34033D002829EA /* Main.storyboard */,
+				3C57AEE31E35769E003043B1 /* ThirdViewController.h */,
+				3C57AEE41E35769E003043B1 /* ThirdViewController.m */,
 				3CCEBE901E3406F3002829EA /* FirstViewController.h */,
 				3CCEBE911E3406F3002829EA /* FirstViewController.m */,
 				3CCEBE931E3406F9002829EA /* SecondViewController.h */,
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CCEBE951E3406F9002829EA /* SecondViewController.m in Sources */,
+				3C57AEE51E35769E003043B1 /* ThirdViewController.m in Sources */,
 				3CCEBE7E1E34033D002829EA /* AppDelegate.m in Sources */,
 				3CCEBE921E3406F3002829EA /* FirstViewController.m in Sources */,
 				3CCEBE7B1E34033D002829EA /* main.m in Sources */,
@@ -313,6 +319,7 @@
 				3CCEBE8F1E34033D002829EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
